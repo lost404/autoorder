@@ -1,0 +1,37 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<!--[if IE 7]>  <html class="no-js  lt-ie10 lt-ie9 lt-ie8 ie7" lang="zh-cn"> <![endif]-->
+<!--[if IE 8]>  <html class="no-js lt-ie10 lt-ie9 ie8" lang="zh-cn"> <![endif]-->
+<!--[if IE 9]>  <html class="no-js lt-ie10 ie9" lang="zh-cn"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-cn"> <!--<![endif]-->
+<head>
+    <script></script>
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="cleartype" content="on">
+    <title>MODULE_NAME - ACTION_NAME</title>
+    <link rel="stylesheet" href="./Static/css/ao.css">
+</head>
+<body>
+<div id="nav" class="container_16 ao_nav">
+    <div class="grid_16 ch-box">
+        <font><a href="__APP__/Index/index">首页</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/News/List">公告</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/Order/Index">订单</a>&nbsp;&nbsp;&nbsp;</font><?php if($userInfo == 0): ?><font class="ao_right"><a href="__APP__/Member/Login">登录</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/Member/Register">注册</a>&nbsp;&nbsp;</font><?php else: ?><font class="ao_right"><a class="ao_box_head">您好,</a><a href="__APP__/Member/Info/Id/<?php echo ($userInfo["uid"]); ?>"><?php echo ($userInfo["username"]); ?></a>&nbsp;&nbsp;<a href="__APP__/Member/Info/Id/<?php echo ($userInfo["uid"]); ?>">资料<a>&nbsp;<a href="__APP__/Member/Logout">退出<a>&nbsp;&nbsp;</font><?php endif; ?>
+    </div>
+</div>
+
+    <div id="logout" class="container_16">
+        <div id="logout_main" class="grid_16 ch-box-lite">
+            <center>
+                <div id="logout_message">
+                    <meta http-equiv="refresh" content="3;url=__APP__/Index/index">
+                    <a>您已经成功退出了！如果浏览器无法自动跳转请单击一下链接进行跳转！</a></p>
+                    <a href="__APP__/Index/index">点击跳转......</a></p>
+                </div>
+            </center>
+        </div>
+    </div>
+   <div class="container_16">
+        <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
+    </div>
+   </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<!--[if IE 7]>	<html class="no-js  lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>	<html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-cn"> <!--<![endif]-->
+<head>
+	<script></script>
+	<meta charset="utf-8" />
+	<title>Chico UI</title>
+	<!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="stylesheet" href="css/ao.css">
+	
+</head>
+
+<body>
+	<div class="ch-box-lite">
+		<h2>Modal with AJAX content</h2>
+
+		<form action="./index.php?s=/Api/MemberRegister">
+			<p><input type="submit" class="ch-btn ch-btn-small YOUR_SELECTOR_Modal" value="Executed by submit a form"> or <a href="./index.php?s=/Api/MemberRegister" class="YOUR_SELECTOR_Modal">Executed by a link</a>.</p>
+		</form>
+	</div>
+
+	<div class="ch-box-lite">
+		<h2>Modal with DOM content</h2>
+
+		<button class="YOUR_SELECTOR_Modal_invisible ch-btn ch-btn-small">Get content from DOM</button>
+
+		<div id="invisible-content" class="ch-hide">
+			<h1>Caption heading</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
+			<div class="ch-actions">
+				<button class="ch-btn">Primary Action</button>
+				<a href="#">Secondary Action</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="ch-box-lite">
+		<h2>Modal Lite</h2>
+		<button class="YOUR_SELECTOR_Modal_lite ch-btn ch-btn-small">Show me</button>
+	</div>
+
+	<div class="ch-box-lite">
+		<h2>Transition window</h2>
+		<form action="./ajax.html">
+			<input type="submit" class="ch-btn ch-btn-small YOUR_SELECTOR_Transition" value="Exeute it!">
+		</form>
+	</div>
+
+	<div class="ch-box-lite">
+		<h2>Zoom</h2>
+		<a id="YOUR_SELECTOR_Zoom" href="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" target="_blank">
+			<img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_128.png" alt="HTML5"/>
+		</a>
+	</div>
+	<div class="ch-clearfix">
+		<h1>Mesh</h1>
+		<div class="ch-g1-5"><div class="ch-box">12</div></div>
+		<div class="ch-g1-5"><div class="ch-box-lite">12</div></div>
+		<div class="ch-g1-5"><div class="ch-box-lite">12</div></div>
+		<div class="ch-g1-5"><div class="ch-box-lite">12</div></div>
+		<div class="ch-g1-5"><div class="ch-box-lite">12</div></div>
+	</div>
+	<script src="js/ao.js"></script>
+	<script>
+	// Modal
+		var modal1 = $(".YOUR_SELECTOR_Modal").modal({
+			"width": "500px",
+			"height": "300px"
+		});
+
+		// Modal with invisible DOM Content
+		var modal2 = $(".YOUR_SELECTOR_Modal_invisible").modal($("#invisible-content"));
+
+		// Modal lite
+		var modal3 = $('.YOUR_SELECTOR_Modal_lite').modal({
+			'content': '<h2>Heading or content</h2>',
+			'classes': 'ch-box ch-modal-lite'
+		});
+
+		// Trasition
+		var transition = $(".YOUR_SELECTOR_Transition").transition();
+
+		// Zoom
+		var zoom = $("#YOUR_SELECTOR_Zoom").zoom();
+
+		// expandable
+		var expandable = $(".YOUR_SELECTOR_expandable").expandable();
+	</script>
+	</body>
+</html>

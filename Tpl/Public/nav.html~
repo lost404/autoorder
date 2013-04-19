@@ -1,0 +1,5 @@
+<div id="nav" class="container_16 ao_nav">
+    <div class="grid_16 ch-box">
+        <font><a href="__APP__/Index/index">首页</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/News/List">首页</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/Order/Index">首页</a>&nbsp;&nbsp;&nbsp;</font><if condition="$userInfo eq 0"><font class="ao_right"><a href="__APP__/Member/Login">登录</a>&nbsp;&nbsp;&nbsp;<a href="__APP__/Member/Register">注册</a>&nbsp;&nbsp;</font><else /><font class="ao_right"><a class="ao_box_head">您好,</a><a href="__APP__/Member/Info/Id/{$userInfo.uid}">{$userInfo.username}</a>&nbsp;&nbsp;<a href="__APP__/Member/Info/Id/{$userInfo.uid}">资料<a>&nbsp;<a href="__APP__/Member/Logout">退出<a>&nbsp;&nbsp;</font></if>
+    </div>
+</div>
