@@ -1439,3 +1439,236 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.001405s ]
 INFO: [ view_end ] --END-- [ RunTime:0.001620s ]
 
+[ 2013-04-20T18:38:39+08:00 ] 127.0.0.1 /autoorder/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002862s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001040s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001049s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000870s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004509s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2013-04-20T18:38:40+08:00 ] 127.0.0.1 /autoorder/index.php?s=/News/View/Id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001493s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001689s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014043s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001046s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001244s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006845s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2013-04-20T18:38:42+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001472s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002707s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014010s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001064s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001119s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000855s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004599s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001210s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2013-04-20T18:38:43+08:00 ] 127.0.0.1 /autoorder/index.php?s=/News/Add
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001516s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002017s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015608s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001043s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001181s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004719s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001273s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2013-04-20T18:38:43+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004322s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004518s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' C:\wamp\www\autoorder\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2013-04-20T18:45:09+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Member/Logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001677s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001507s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012164s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000853s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000867s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000766s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001232s ]
+
+[ 2013-04-20T18:45:10+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001233s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013431s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000880s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001419s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004646s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2013-04-20T18:45:12+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001435s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001685s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015167s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000940s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004052s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2013-04-20T18:45:12+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001417s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' C:\wamp\www\autoorder\Lib\Action\PublicAction.class.php 第 5 行.
+
+[ 2013-04-20T18:48:52+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001495s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001324s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001506s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014584s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000986s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001298s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2013-04-20T18:48:53+08:00 ] 127.0.0.1 /autoorder/index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001862s ]
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+NOTIC: [2] stripslashes() expects exactly 1 parameter, 2 given C:\wamp\www\autoorder\ThinkPHP\Lib\Core\App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007214s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' C:\wamp\www\autoorder\Lib\Action\PublicAction.class.php 第 5 行.
+
