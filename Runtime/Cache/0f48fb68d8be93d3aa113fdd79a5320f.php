@@ -19,17 +19,6 @@
     </div>
 </div>
 
-    <div id="logout" class="container_16">
-        <div id="logout_main" class="grid_16 ch-box-lite">
-            <center>
-                <div id="logout_message">
-                    <meta http-equiv="refresh" content="3;url=__APP__/Index/index">
-                    <a>您已经成功退出了！如果浏览器无法自动跳转请单击一下链接进行跳转！</a></p>
-                    <a href="__APP__/Index/index">点击跳转......</a></p>
-                </div>
-            </center>
-        </div>
-    </div>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
     </div>

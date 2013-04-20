@@ -13,7 +13,13 @@
 
 
 
-        public function ist(){
+        public function Index(){
+            $this->display();
+        }
+
+
+
+        public function Add(){
             $this->display();
         }
     } 

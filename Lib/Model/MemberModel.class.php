@@ -13,7 +13,8 @@
         protected $_auto = array(
             array('salt', 'GetSalt', 1, 'callback'),
             array('password', 'aoMd5', 1, 'callback'),
-            array('regTime', 'time', 1, 'function')
+            array('regTime', 'time', 1, 'function'),
+            array('group', 0)
             );
 
         public $salt = '';

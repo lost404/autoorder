@@ -16,5 +16,11 @@
             load("@.Member");
             $this->userInfo = (IsLogin() == false)?0:(IsLogin());
         }
+
+
+
+        public function Index(){
+            $this->display();
+        }
     }
 ?>
