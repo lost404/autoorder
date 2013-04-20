@@ -37,5 +37,6 @@
             $this->salt = $salt;
             return $salt;
         }
+        
     }
 ?>
