@@ -14,7 +14,7 @@
                         <h2>Caption heading</h2>
                         <form name="register" id="register" method="post">
                             <div class="ch-form-row">
-                                <label>用户名：</label>
+                                <label>Username:</label>
                                 <input type="text" name="username" id="username" size="30"/>
                                 <i class="ch-form-ico-inner ch-icon-user"></i>
                                 <a class="ch-box-help" id="ao_register_username_msg">请设置您的用户名！</a>

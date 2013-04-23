@@ -22,38 +22,94 @@
     <div id="register" class="container_16">
         <div id="register-main" class="grid_16 ch-box-lite">
             <div class="ch-wizard">
-                <ol class="ch-wizard-breadcrumb ch-steps-four">
-                    <?php if($step == 2): ?><li><a>第一步：阅读协议</a></li>
+                <?php if($step == 2): ?><ol class="ch-wizard-breadcrumb ch-steps-four">
+                        <li><a>第一步：阅读协议</a></li>
                         <li class="ch-wizard-current"><a>第二步：注册帐号</a></li>
                         <li class="ch-wizard-step">第三步：完善信息</li>
                         <li class="ch-wizard-step">第四步：注册成功</li>
-                    <?php elseif($step == 3): ?>
+                    </ol>
+                    <div class="ch-box-container">
+                        <h2>Caption heading</h2>
+                        <form name="register" id="register" method="post">
+                            <div class="ch-form-row">
+                                <label>Username:</label>
+                                <input type="text" name="username" id="username" size="30"/>
+                                <i class="ch-form-ico-inner ch-icon-user"></i>
+                                <a class="ch-box-help" id="ao_register_username_msg">请设置您的用户名！</a>
+                            </div>
+                            <div class="ch-form-row">
+                                <label>Username:</label>
+                                <input type="text" name="username" id="username" size="30"/>
+                                <i class="ch-form-ico-inner ch-icon-lock"></i>
+                                <a class="ch-box-help" id="ao_register_password_msg">请设置您的密码！</a>
+                            </div>
+                            <div class="ch-form-row">
+                                <label>Username:</label>
+                                <input type="text" name="username" id="username" size="30"/>
+                                <i class="ch-form-ico-inner ch-icon-lock"></i>
+                                <a class="ch-box-help" id="ao_register_password_msg">请设置您的密码！</a>
+                            </div>
+                            <div class="ch-form-row">
+                                <label>验&nbsp;&nbsp;证&nbsp;&nbsp;码&nbsp;:</label><input type="text" name="verify" id="ao_register_verify" size="30" />
+                                <i class="ch-form-ico-inner ch-icon-refresh"></i>
+                                <a class="ch-box-help" id="ao_register_verify_msg">请输入下图的验证码！</a></br>
+                            </div>
+                            <div class="ch-form-row">
+                                <label></label><img id="Verify" src="__APP__/Public/Verify" /><font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新.</font></br>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="ch-actions">
+                       <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
+                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">确认，下一步</a>
+                    </div>
+                <?php elseif($step == 3): ?>
+                    <ol class="ch-wizard-breadcrumb ch-steps-four">
                         <li><a>第一步：阅读协议</a></li>
                         <li><a>第二步：注册帐号</a></li>
                         <li class="ch-wizard-current">第三步：完善信息</li>
                         <li class="ch-wizard-step">第四步：注册成功</li>
-                    <?php elseif($step == 4): ?>
+                    </ol>
+                    <div class="ch-box-container">
+                        <h2>Caption heading</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
+                    </div>
+                    <div class="ch-actions">
+                       <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
+                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">确认，下一步</a>
+                    </div>
+                <?php elseif($step == 4): ?>
+                    <ol class="ch-wizard-breadcrumb ch-steps-four">
                         <li><a>第一步：阅读协议</a></li>
                         <li><a>第二步：注册帐号</a></li>
                         <li><a>第三步：完善信息</a></li>
                         <li class="ch-wizard-current">第四步：注册成功</li>
-                    <?php else: ?>
+                    </ol>
+                    <div class="ch-box-container">
+                        <h2>Caption heading</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
+                    </div>
+                    <div class="ch-actions">
+                       <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
+                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">注册成功，点此登录</a>
+                    </div>
+                <?php else: ?>
+                    <ol class="ch-wizard-breadcrumb ch-steps-four">
                         <li class="ch-wizard-current">第一步：阅读协议</li>
                         <li class="ch-wizard-step">第二步：注册帐号</li>
                         <li class="ch-wizard-step">第三步：完善信息</li>
-                        <li class="ch-wizard-step">第四步：注册成功</li><?php endif; ?>
-                </ol>
-
-                <div class="ch-box-container">
-                    <h2>Caption heading</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet purus in sapien luctus sodales. Curabitur dui velit, cursus in sagittis aliquam, dictum at neque. Ut gravida scelerisque lorem non pulvinar. Pellentesque et urna vitae nisl porta imperdiet sed nec ipsum. Sed non sem velit. Cras id consectetur tellus.</p>
-                </div>
-
-                <div class="ch-actions">
-                    <?php if(($step > 0) AND ($step < 5)): ?><button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
-                        <a href="<?php if($step == 4): ?>__APP__/Member/Login<?php else: ?>__ACTION__/Step/<?php echo ($step+1); endif; ?>">确认，下一步</a><?php endif; ?>
-
-                </div>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    </ol>
+                    <div class="ch-box-container">
+                        <h2>注册协议</h2>
+                        <hr />
+                        <p>以下是本站注册协议，请认真阅读。</p>
+                    </div>
+                    <div class="ch-actions">
+                       <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">取消</button>
+                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">同意注册协议，下一步</a>
+                    </div><?php endif; ?>
+                
             </div>
         </div>
     </div>
