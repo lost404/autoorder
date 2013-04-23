@@ -10,7 +10,7 @@
 
         public function Register(){
             if($this->userInfo == 0){
-                $this->display();
+                $this->display('RegisterStep');
             }
             else{
                 $this->display("AlreadyLogin");
