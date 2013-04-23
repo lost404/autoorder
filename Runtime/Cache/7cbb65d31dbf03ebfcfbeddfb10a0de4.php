@@ -23,10 +23,25 @@
         <div id="register-main" class="grid_16 ch-box-lite">
             <div class="ch-wizard">
                 <ol class="ch-wizard-breadcrumb ch-steps-four">
-                    <li><a href="__ACTION__/Step/1">Step 1</a></li>
-                    <li><a href="__ACTION__/Step/2">Step 2</a></li>
-                    <li class="ch-wizard-current">Step 3</li>
-                    <li class="ch-wizard-step">Step 4</li>
+                    <?php if($step == 2): ?><li><a>第一步：阅读协议</a></li>
+                        <li class="ch-wizard-current"><a>第二步：注册帐号</a></li>
+                        <li class="ch-wizard-step">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    <?php elseif($step == 3): ?>
+                        <li><a>第一步：阅读协议</a></li>
+                        <li><a>第二步：注册帐号</a></li>
+                        <li class="ch-wizard-current">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    <?php elseif($step == 4): ?>
+                        <li><a>第一步：阅读协议</a></li>
+                        <li><a>第二步：注册帐号</a></li>
+                        <li><a>第三步：完善信息</a></li>
+                        <li class="ch-wizard-current">第四步：注册成功</li>
+                    <?php else: ?>
+                        <li class="ch-wizard-current">第一步：阅读协议</li>
+                        <li class="ch-wizard-step">第二步：注册帐号</li>
+                        <li class="ch-wizard-step">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li><?php endif; ?>
                 </ol>
 
                 <div class="ch-box-container">
@@ -35,14 +50,18 @@
                 </div>
 
                 <div class="ch-actions">
-                    <button class="ch-btn">Primary Action</button>
-                    <a href="__ACTION__/Step/">Secondary Action</a>
+                    <?php if(($step > 0) AND ($step < 5)): ?><button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
+                        <a href="<?php if($step == 4): ?>__APP__/Member/Login<?php else: ?>__ACTION__/Step/<?php echo ($step+1); endif; ?>">确认，下一步</a><?php endif; ?>
+
                 </div>
             </div>
         </div>
     </div>
 
 <script src="./Static/js/ao.js"></script>
+    <script type="text/javascript">
+
+    </script>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
     </div>

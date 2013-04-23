@@ -10,6 +10,8 @@
 
         public function Register(){
             if($this->userInfo == 0){
+                $this->step = intval($this->_get('Step'));
+                if($this->step < 1 || $this->step > 4) header('location:'. __ACTION__. '/Step/1');
                 $this->display('RegisterStep');
             }
             else{

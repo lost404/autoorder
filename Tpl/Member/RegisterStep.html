@@ -4,10 +4,27 @@
         <div id="register-main" class="grid_16 ch-box-lite">
             <div class="ch-wizard">
                 <ol class="ch-wizard-breadcrumb ch-steps-four">
-                    <li><a href="__ACTION__/Step/1">Step 1</a></li>
-                    <li><a href="__ACTION__/Step/2">Step 2</a></li>
-                    <li class="ch-wizard-current">Step 3</li>
-                    <li class="ch-wizard-step">Step 4</li>
+                    <if condition="$step eq 2">
+                        <li><a>第一步：阅读协议</a></li>
+                        <li class="ch-wizard-current"><a>第二步：注册帐号</a></li>
+                        <li class="ch-wizard-step">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    <elseif condition="$step eq 3"/>
+                        <li><a>第一步：阅读协议</a></li>
+                        <li><a>第二步：注册帐号</a></li>
+                        <li class="ch-wizard-current">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    <elseif condition="$step eq 4"/>
+                        <li><a>第一步：阅读协议</a></li>
+                        <li><a>第二步：注册帐号</a></li>
+                        <li><a>第三步：完善信息</a></li>
+                        <li class="ch-wizard-current">第四步：注册成功</li>
+                    <else />
+                        <li class="ch-wizard-current">第一步：阅读协议</li>
+                        <li class="ch-wizard-step">第二步：注册帐号</li>
+                        <li class="ch-wizard-step">第三步：完善信息</li>
+                        <li class="ch-wizard-step">第四步：注册成功</li>
+                    </if>
                 </ol>
 
                 <div class="ch-box-container">
@@ -16,12 +33,18 @@
                 </div>
 
                 <div class="ch-actions">
-                    <button class="ch-btn">Primary Action</button>
-                    <a href="__ACTION__/Step/">Secondary Action</a>
+                    <if condition="($step gt 0) AND ($step lt 5)">
+                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
+                        <a href="<if condition="$step eq 4">__APP__/Member/Login<else/>__ACTION__/Step/{$step+1}</if>">确认，下一步</a>
+                    </if>
+
                 </div>
             </div>
         </div>
     </div>
 
 <include file="Public:js"/>
+    <script type="text/javascript">
+
+    </script>
 <include file="Public:footer"/>
