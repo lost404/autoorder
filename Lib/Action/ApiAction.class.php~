@@ -72,7 +72,7 @@
                 case 'CheckUsername':
                     $data = array();
                     $data['data'] = array();
-                    if(strlen($this->_get('username')) < 3 || strlen($this->_get('username')) > 8){
+                    if(strlen($this->_get('username')) < 4 || strlen($this->_get('username')) > 8){
                         $data['status'] = 1;
                         $data['info'] = '用户名长度请在3-8位之间！';
                     }
@@ -84,7 +84,7 @@
                             $data['info'] = '该用户名已被注册！';
                         }
                         else{
-                            $data['status'] = 0;
+                            $data['status'] = 2;
                             $data['info'] = '该用户名可以注册！';
                         }
                     }

@@ -16,29 +16,29 @@
                         <form name="register" id="register" method="post">
                             <div class="ch-form-row">
                                 <label>用户名：</label>
-                                <input type="text" name="username" id="username" size="30"/>
+                                <input type="text" name="username" id="username" size="30" onchange="CheckUsername();"/>
                                 <i class="ch-form-ico-inner ch-icon-user"></i>
-                                <a class="ch-box-help" id="ao_register_username_msg">请设置您的用户名！</a>
+                                <a class="ch-box-help" id="username-msg">请设置您的用户名！</a>
                             </div>
                             <div class="ch-form-row">
                                 <label>密码：</label>
-                                <input type="text" name="username" id="username" size="30"/>
+                                <input type="password" name="password" id="password" size="30" onchange="CheckPassword();"/>
                                 <i class="ch-form-ico-inner ch-icon-lock"></i>
-                                <a class="ch-box-help" id="ao_register_password_msg">请设置您的密码！</a>
+                                <a class="ch-box-help" id="password-msg">请设置您的密码！</a>
                             </div>
                             <div class="ch-form-row">
                                 <label>确认密码：</label>
-                                <input type="text" name="username" id="username" size="30"/>
+                                <input type="password" name="password2" id="password2" size="30" onchange="CheckPassword2();"/>
                                 <i class="ch-form-ico-inner ch-icon-lock"></i>
-                                <a class="ch-box-help" id="ao_register_password_msg">请设置您的密码！</a>
+                                <a class="ch-box-help" id="password2-msg">请设置您的密码！</a>
                             </div>
                             <div class="ch-form-row">
-                                <label>验&nbsp;&nbsp;证&nbsp;&nbsp;码&nbsp;：</label><input type="text" name="verify" id="ao_register_verify" size="30" />
+                                <label>验&nbsp;&nbsp;证&nbsp;&nbsp;码&nbsp;：</label><input type="text" name="verify" id="verify" size="30" onchange="CheckVerify();"/>
                                 <i class="ch-form-ico-inner ch-icon-refresh"></i>
-                                <a class="ch-box-help" id="ao_register_verify_msg">请输入下图的验证码！</a></br>
+                                <a class="ch-box-help" id="verify-msg">请输入下图的验证码！</a></br>
                             </div>
                             <div class="ch-form-row">
-                                <label></label><img id="Verify" src="__APP__/Public/Verify" /><font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新.</font></br>
+                                <label></label><img id="Verify" src="__APP__/Public/Verify" /><font class="verify-info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新.</font></br>
                             </div>
                         </form>
                     </div>
@@ -59,23 +59,23 @@
                         <form id="register-info" name="register-info" method="post">
                             <div class="ch-form-row">
                                 <label>QQ号：</label>
-                                <input type="text" name="qq" id="qq" size="50" placeholder="Write a country name"/>
+                                <input type="text" name="qq" id="qq" size="50" placeholder="请填写您的QQ号。"/>
                             </div>
                             <div class="ch-form-row">
                                 <label>手机号：</label>
-                                <input type="text" name="phone" id="phone" size="50" placeholder="Write a country name"/>
+                                <input type="text" name="phone" id="phone" size="50" placeholder="请填写您的手机号。"/>
                             </div>
                             <div class="ch-form-row">
                                 <label>性别：</label>
-                                <input type="text" name="professional" id="professional" size="50" placeholder="Write a country name"/>
+                                <input type="text" name="professional" id="professional" size="50" placeholder="请选择您的性别。"/>
                             </div>
                             <div class="ch-form-row">
                                 <label>职业：</label>
-                                <input type="text" name="professional" id="professional" size="50" placeholder="Write a country name"/>
+                                <input type="text" name="professional" id="professional" size="50" placeholder="请填写您的职业。"/>
                             </div>
                             <div class="ch-form-row">
                                 <label>简介：</label>
-                                <textarea name="introduction" id="introduction" placeholder="Write a country name" cols="50" rows="10"></textarea>
+                                <textarea name="introduction" id="introduction" placeholder="请填写您的简介。" cols="50" rows="10"></textarea>
                             </div>
                         </form>
                     </div>
@@ -112,7 +112,7 @@
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">取消</button>
-                        <a href="__ACTION__/Step/{$step+1}">同意注册协议，下一步</a>
+                        <a href="__ACTION__/Step/{$step+1}" >同意注册协议，下一步</a>
                     </div>
                 </if>
                 
@@ -122,6 +122,80 @@
 
 <include file="Public:js"/>
     <script type="text/javascript">
+        function getID(id){
+            return document.getElementById(id);
+        }
 
+
+
+        function CheckUsername(){
+            $.getJSON('__APP__/Api/Member/Mod/CheckUsername/username/'+getID('username').value, function(data){
+                var usernameMsg = getID("username-msg");
+                if(data.status != 0){
+                    usernameMsg.className = 'ch-box-error';
+                    getID("username").focus();
+                }
+                else{
+                    usernameMsg.className = 'ch-box-ok';
+                }
+                usernameMsg.innerHTML = data.info;
+            });
+        }
+
+
+
+        function CheckPassword(){
+            var password = getID("password");
+            var passwordMsg = getID('password-msg');
+            if(password.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
+                passwordMsg.className = 'ch-box-ok';
+                passwordMsg.innerHTML = '';
+            }
+            else{
+                passwordMsg.className = 'ch-box-error';
+                passwordMsg.innerHTML = '';
+                password.focus();
+            }
+        }
+
+
+
+        function CheckPassword2(){
+            var password2 = getID("password2");
+            var password2Msg = getID('password2-msg');
+            if(password2.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
+                password2Msg.className = 'ch-box-ok';
+                password2Msg.innerHTML = '';
+            }
+            else{
+                password2Msg.className = 'ch-box-error';
+                password2Msg.innerHTML = '';
+                password2.focus();
+            }
+        }
+
+
+
+        $("#Verify").click(function(){
+            document.getElementById('Verify').src = "__APP__/Public/Verify";
+        }); 
+
+
+
+        function CheckVerify(){
+            var verify = getID('verify');
+            var verifyMsg = getID('verify-msg');
+            $.getJSON('__APP__/Public/VerifyCheck', {Verify:verify.value}, function(data){
+                if(data.check == 1){
+                    verifyMsg.className = 'ch-box-ok';
+                    verifyMsg.innerHTML = '';
+                }
+                else{
+                    verifyMsg.className = 'ch-box-error';
+                    verifyMsg.innerHTML = '';
+                    verify.focus();
+                }
+            });
+        }
     </script>
 <include file="Public:footer"/>
