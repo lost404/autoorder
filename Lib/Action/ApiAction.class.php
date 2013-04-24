@@ -37,7 +37,7 @@
                     }
                     $this->ajaxReturn($data, 'JSON');
                     session('Verify', null);
-                break;
+                    break;
 
                 case 'Login':
                     $data = array();
@@ -67,11 +67,22 @@
                     }
                     $this->ajaxReturn($data, 'JSON');
                     session('Verify', null);
-                break;
+                    break;
+
+                case 'CheckUsername':
+                    $data = array();
+                    $data['data'] = array();
+                    $Member = M('Member');
+                    $result = $Member->where("username='". $this->_get('username'). "'")->find();
+                    $data['data'] = $result;
+                    $data['info'] = '';
+                    $data['status'] = 0;
+                    $this->ajaxReturn($data, 'JSON');
+                    break;
 
                 default:
 
-                break;
+                    break;
             }
         }
     }
