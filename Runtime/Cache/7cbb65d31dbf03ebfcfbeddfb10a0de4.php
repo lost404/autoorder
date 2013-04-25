@@ -31,7 +31,7 @@
                     <div class="ch-box-container">
                         <h2>注册</h2>
                         <hr />
-                        <form name="register" id="register" method="post">
+                        <form name="register-form" id="register-form" method="post">
                             <div class="ch-form-row">
                                 <label>用户名：</label>
                                 <input type="text" name="username" id="username" size="30" onchange="CheckUsername();"/>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
-                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">确认，下一步</a>
+                        <a onclick="Register();">确认，下一步</a>
                     </div>
                 <?php elseif($step == 3): ?>
                     <ol class="ch-wizard-breadcrumb ch-steps-four">
@@ -85,7 +85,11 @@
                             </div>
                             <div class="ch-form-row">
                                 <label>性别：</label>
-                                <input type="text" name="professional" id="professional" size="50" placeholder="请选择您的性别。"/>
+                                <input type="radio" value="0" id="sex" name="sex">
+                                <label for="sex">男</label>
+                                <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <input type="radio" value="1" id="sex" name="sex">
+                                <label for="sex">女</label>
                             </div>
                             <div class="ch-form-row">
                                 <label>职业：</label>
@@ -99,7 +103,7 @@
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
-                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>">确认，下一步</a>
+                        <a href="__ACTION__/Step/4">确认，下一步</a>
                     </div>
                 <?php elseif($step == 4): ?>
                     <ol class="ch-wizard-breadcrumb ch-steps-four">
@@ -130,7 +134,7 @@
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">取消</button>
-                        <a href="__ACTION__/Step/<?php echo ($step+1); ?>" >同意注册协议，下一步</a>
+                        <a href="__ACTION__/Step/2" >同意注册协议，下一步</a>
                     </div><?php endif; ?>
                 
             </div>
@@ -213,6 +217,14 @@
                     getID('Verify').src = "__APP__/Public/Verify";
                     verify.focus();
                 }
+            });
+        }
+
+
+
+        function Register(){
+            $.post('__APP__/Api/Member/Mod/Register', $("#register-form").serialize(), function(data){
+                alert(data.data.uid);
             });
         }
     </script>

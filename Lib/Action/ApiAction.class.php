@@ -21,18 +21,43 @@
                         $Member = D("Member");
                         if (!$Member->create()){
                             $data['status'] = 2;
-                            $data['info'] = '<div class="ch-box-error"><h2>错误信息</h2><p><b>'. $Mmeber->getError(). '</b></p><p><a>请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>';
+                            $data['info'] = '<div class="ch-box-error"><h2>错误信息</h2><p><b>'. $Member->getError(). '</b></p><p><a>请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>';
                         }
                         else{
                             $result = $Member->add();
                             if($result) {
                                 $data['status'] = 0;
+                                $data['data']['uid'] = $result;
+                                session('regStatus', 3);
                                 $data['info'] = '<meta http-equiv="refresh" content="3;url='. __APP__. '/Member/Login">'. '<div class="ch-box-ok"><h2>注册成功</h2><p>您已经成功注册了，如果浏览器没有自动跳转，请单击&nbsp;&nbsp;<a href="'. __APP__. '/Member/Login">此处</a>&nbsp;&nbsp;进行跳转！</p></div>';
                             }
                             else{
                                 $data['status'] = 3;
                                 $data['info'] = '<meta http-equiv="refresh" content="3;url='. __APP__. '/Member/Register">'. '<div class="ch-box-error"><h2>注册失败</h2><p>请确认您的注册信息，如果浏览器没有自动跳转，请单击&nbsp;&nbsp;<a href="'. __APP__. '/Member/Register">此处</a>&nbsp;&nbsp;进行重新注册！</p></div>';
                             }
+                        }
+                    }
+                    $this->ajaxReturn($data, 'JSON');
+                    session('Verify', null);
+                    break;
+
+                case 'RegisterInfo':
+                    $data = array();
+                    $data['data'] = array();
+                    $Member = D("Member");
+                    if (!$Member->create()){
+                        $data['status'] = 1;
+                        $data['info'] = '<div class="ch-box-error"><h2>错误信息</h2><p><b>'. $Member->getError(). '</b></p><p><a>请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>';
+                    }
+                    else{
+                        $result = $Member->where("'uid='". $this->_get('Uid'). "'" )->save($info);
+                        if($result) {
+                            $data['status'] = 0;
+                            $data['info'] = '<meta http-equiv="refresh" content="3;url='. __APP__. '/Member/Login">'. '<div class="ch-box-ok"><h2>注册成功</h2><p>您已经成功注册了，如果浏览器没有自动跳转，请单击&nbsp;&nbsp;<a href="'. __APP__. '/Member/Login">此处</a>&nbsp;&nbsp;进行跳转！</p></div>';
+                        }
+                        else{
+                            $data['status'] = 2;
+                            $data['info'] = '<meta http-equiv="refresh" content="3;url='. __APP__. '/Member/Register">'. '<div class="ch-box-error"><h2>注册失败</h2><p>请确认您的注册信息，如果浏览器没有自动跳转，请单击&nbsp;&nbsp;<a href="'. __APP__. '/Member/Register">此处</a>&nbsp;&nbsp;进行重新注册！</p></div>';
                         }
                     }
                     $this->ajaxReturn($data, 'JSON');

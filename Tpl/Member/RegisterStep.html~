@@ -67,7 +67,11 @@
                             </div>
                             <div class="ch-form-row">
                                 <label>性别：</label>
-                                <input type="text" name="professional" id="professional" size="50" placeholder="请选择您的性别。"/>
+                                <input type="radio" value="alpha" id="sex" name="sex">
+                                <label for="sex">Alpha</label>
+                                <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <input type="radio" value="alpha" id="sex" name="sex">
+                                <label for="sex">Alpha</label>
                             </div>
                             <div class="ch-form-row">
                                 <label>职业：</label>
@@ -149,11 +153,11 @@
             var passwordMsg = getID('password-msg');
             if(password.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
                 passwordMsg.className = 'ch-box-ok';
-                passwordMsg.innerHTML = '';
+                passwordMsg.innerHTML = '密码格式正确！';
             }
             else{
                 passwordMsg.className = 'ch-box-error';
-                passwordMsg.innerHTML = '';
+                passwordMsg.innerHTML = '请输入8-16位的密码！';
                 password.focus();
             }
         }
@@ -165,11 +169,11 @@
             var password2Msg = getID('password2-msg');
             if(password2.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
                 password2Msg.className = 'ch-box-ok';
-                password2Msg.innerHTML = '';
+                password2Msg.innerHTML = '密码格式正确！';
             }
             else{
                 password2Msg.className = 'ch-box-error';
-                password2Msg.innerHTML = '';
+                password2Msg.innerHTML = '请输入8-16位的密码！';
                 password2.focus();
             }
         }
@@ -177,7 +181,7 @@
 
 
         $("#Verify").click(function(){
-            document.getElementById('Verify').src = "__APP__/Public/Verify";
+            getID('Verify').src = "__APP__/Public/Verify";
         }); 
 
 
@@ -188,11 +192,12 @@
             $.getJSON('__APP__/Public/VerifyCheck', {Verify:verify.value}, function(data){
                 if(data.check == 1){
                     verifyMsg.className = 'ch-box-ok';
-                    verifyMsg.innerHTML = '';
+                    verifyMsg.innerHTML = '验证码正确！';
                 }
                 else{
                     verifyMsg.className = 'ch-box-error';
-                    verifyMsg.innerHTML = '';
+                    verifyMsg.innerHTML = '验证码错误！';
+                    getID('Verify').src = "__APP__/Public/Verify";
                     verify.focus();
                 }
             });

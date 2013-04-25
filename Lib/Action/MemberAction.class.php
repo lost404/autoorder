@@ -11,6 +11,11 @@
         public function Register(){
             if($this->userInfo == 0){
                 $this->step = intval($this->_get('Step'));
+                $this->regStatus = session('regStatus');
+                if(!isset($this->regStatus) || !in_array($this->regStatus ,array(1, 2, 3, 4))){
+                    session('regStatus', 1);
+                    header('location:'. __ACTION__. '/Step/1');
+                }
                 if($this->step < 1 || $this->step > 4) header('location:'. __ACTION__. '/Step/1');
                 $this->display('RegisterStep');
             }
