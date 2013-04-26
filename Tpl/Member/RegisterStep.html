@@ -210,5 +210,16 @@
                 alert(data.data.uid);
             });
         }
+
+
+
+        var errorBox = $.artDialog({
+            visible: false,
+            id: 'errorBox',
+            title: '{$Think.lang.ApiActionMemberRegisterVerifyError}',
+            lock: true,
+            fixed: true
+        });
+        errorBox.visible();
     </script>
 <include file="Public:footer"/>

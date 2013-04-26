@@ -227,6 +227,17 @@
                 alert(data.data.uid);
             });
         }
+
+
+
+        var errorBox = $.artDialog({
+            visible: false,
+            id: 'errorBox',
+            title: '<?php echo (L("ApiActionMemberRegisterVerifyError")); ?>',
+            lock: true,
+            fixed: true
+        });
+        errorBox.visible();
     </script>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
