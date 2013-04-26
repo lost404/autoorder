@@ -207,19 +207,16 @@
 
         function Register(){
             $.post('__APP__/Api/Member/Mod/Register', $("#register-form").serialize(), function(data){
-                alert(data.data.uid);
+                    $.artDialog({
+                        id: 'errorBox_',
+                        title: '{:L('errorTitle')}',
+                        lock: true,
+                        fixed: true,
+                        time: 3000,
+                        content: '<div class="ch-box-error"><p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>'
+                    });
             });
         }
 
-
-
-        var errorBox = $.artDialog({
-            visible: false,
-            id: 'errorBox',
-            title: '{$Think.lang.ApiActionMemberRegisterVerifyError}',
-            lock: true,
-            fixed: true
-        });
-        errorBox.visible();
     </script>
 <include file="Public:footer"/>

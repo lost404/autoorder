@@ -15,13 +15,13 @@
                     $data['data'] = array();
                     if(session('Verify') != md5($this->_post('verify'))){
                         $data['status'] = 1;
-                        $data['info'] = '<div class="ch-box-error"><h2>错误信息</h2><p><b>您的验证码输入错误！</b></p><p><a>请关闭此对话框返回刷新验证码并重新提交！</a></p></div>';
+                        $data['info'] = L('verifyError');
                     }
                     else{
                         $Member = D("Member");
                         if (!$Member->create()){
                             $data['status'] = 2;
-                            $data['info'] = '<div class="ch-box-error"><h2>错误信息</h2><p><b>'. $Member->getError(). '</b></p><p><a>请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>';
+                            $data['info'] = $Member->getError();
                         }
                         else{
                             $result = $Member->add();

@@ -224,20 +224,17 @@
 
         function Register(){
             $.post('__APP__/Api/Member/Mod/Register', $("#register-form").serialize(), function(data){
-                alert(data.data.uid);
+                    $.artDialog({
+                        id: 'errorBox_',
+                        title: '<?php echo L('errorTitle');?>',
+                        lock: true,
+                        fixed: true,
+                        time: 3000,
+                        content: '<div class="ch-box-error"><p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>'
+                    });
             });
         }
 
-
-
-        var errorBox = $.artDialog({
-            visible: false,
-            id: 'errorBox',
-            title: '<?php echo (L("ApiActionMemberRegisterVerifyError")); ?>',
-            lock: true,
-            fixed: true
-        });
-        errorBox.visible();
     </script>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
