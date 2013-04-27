@@ -17,6 +17,9 @@
                     header('location:'. __ACTION__. '/Step/1');
                 }
                 if($this->step < 1 || $this->step > 4) header('location:'. __ACTION__. '/Step/1');
+                if($this->step != session('regStatus')){
+                    header('location:'. __ACTION__. '/Step/'. session('regStatus'));
+                }
                 $this->display('RegisterStep');
             }
             else{

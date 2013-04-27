@@ -46,6 +46,92 @@
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
                         <a onclick="Register();">确认，下一步</a>
                     </div>
+                    <script type="text/javascript">
+                        function CheckUsername(){
+                            $.getJSON('__APP__/Api/Member/Mod/CheckUsername/username/'+getID('username').value, function(data){
+                                var usernameMsg = getID("username-msg");
+                                if(data.status != 0){
+                                    usernameMsg.className = 'ch-box-error';
+                                    getID("username").focus();
+                                }
+                                else{
+                                    usernameMsg.className = 'ch-box-ok';
+                                }
+                                usernameMsg.innerHTML = data.info;
+                            });
+                        }
+
+
+
+                        function CheckPassword(){
+                            var password = getID("password");
+                            var passwordMsg = getID('password-msg');
+                            if(password.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
+                                passwordMsg.className = 'ch-box-ok';
+                                passwordMsg.innerHTML = '密码格式正确！';
+                            }
+                            else{
+                                passwordMsg.className = 'ch-box-error';
+                                passwordMsg.innerHTML = '请输入8-16位的密码！';
+                                password.focus();
+                            }
+                        }
+
+
+
+                        function CheckPassword2(){
+                            var password2 = getID("password2");
+                            var password2Msg = getID('password2-msg');
+                            if(password2.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
+                                password2Msg.className = 'ch-box-ok';
+                                password2Msg.innerHTML = '密码格式正确！';
+                            }
+                            else{
+                                password2Msg.className = 'ch-box-error';
+                                password2Msg.innerHTML = '请输入8-16位的密码！';
+                                password2.focus();
+                            }
+                        }
+
+
+
+                        function Register(){
+                            $.post('__APP__/Api/Member/Mod/Register', $("#register-form").serialize(), function(data){
+                                    if(data.status == 0){
+                                        var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/Member/Register/Step/3">';
+                                        var errorBoxStyle = 'ch-box-ok';
+                                        var errorBoxTitle = '{:L('trueTitle')}';
+                                        var errorBoxClose =  '';
+                                    }
+                                    else if(data.status == 3){
+                                        var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/Member/Register/Step/2">';
+                                        var errorBoxStyle = 'ch-box-error';
+                                        var errorBoxTitle = '{:L('falseTitle')}';
+                                        var errorBoxClose =  '';
+                                    }
+                                    else{
+                                        var errorBoxToUrl = '';
+                                        var errorBoxStyle = 'ch-box-error';
+                                        getID('verify').value = '';
+                                        getID('Verify').src = "__APP__/Public/Verify";
+                                        var errorBoxTitle = '{:L('falseTitle')}';
+                                        var errorBoxClose =  '{:L('closeBox')}';
+                                    }
+                                    $.artDialog({
+                                        id: 'errorBox_',
+                                        title: errorBoxTitle,
+                                        lock: true,
+                                        fixed: true,
+                                        time: 3000,
+                                        content: '<div class="'+ errorBoxStyle+ '">' +errorBoxToUrl +'<p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">'+ errorBoxClose+ '</a></p></div>'
+                                    });
+                                    CheckUsername();
+                                    CheckPassword();
+                                    CheckPassword2();
+                                    CheckVerify();
+                            });
+                        }
+                    </script>
                 <elseif condition="$step eq 3"/>
                     <ol class="ch-wizard-breadcrumb ch-steps-four">
                         <li><a>第一步：阅读协议</a></li>
@@ -81,12 +167,20 @@
                                 <label>简介：</label>
                                 <textarea name="introduction" id="introduction" placeholder="请填写您的简介。" cols="50" rows="10"></textarea>
                             </div>
+                            <input type="hidden" name="regSid" value="{$Think.session.regSid}" />
                         </form>
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">返回上一步</button>
-                        <a href="__ACTION__/Step/4">确认，下一步</a>
+                        <a onclick="RegisterInfo();">确认，下一步</a>
                     </div>
+                    <script type="text/javascript">
+                        function RegisterInfo(){
+                            $.post('__APP__/Api/Member/Mod/RegisterInfo', $('#register-info').serialize(), function(data){
+                                alert(data.info);
+                            });
+                        }
+                    </script>
                 <elseif condition="$step eq 4"/>
                     <ol class="ch-wizard-breadcrumb ch-steps-four">
                         <li><a>第一步：阅读协议</a></li>
@@ -116,8 +210,34 @@
                     </div>
                     <div class="ch-actions">
                        <button class="ch-btn" id="register-primary" onclick="javascript:history.go(-1);">取消</button>
-                        <a href="__ACTION__/Step/2" >同意注册协议，下一步</a>
+                        <a onclick="AgreeReg();">同意注册协议，下一步</a>
                     </div>
+                    <script type="text/javascript">
+                        function AgreeReg(){
+                            $.getJSON('__APP__/Api/Member/Mod/Agree', function(data){
+                                if(data.status == 0){
+                                    var errorBoxTitle = '{:L('trueTitle')}';
+                                    var errorBoxStyle = 'ch-box-ok';
+                                    var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/Member/Register/Step/2">';
+                                    var errorBoxClose = '';
+                                }
+                                else{
+                                    var errorBoxTitle = '{:L('falseTitle')}';
+                                    var errorBoxStyle = 'ch-box-error';
+                                    var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/Member/Register/Step/1">';
+                                    var errorBoxClose =  '{:L('closeBox')}';
+                                }
+                                $.artDialog({
+                                    id: 'agree',
+                                    title: errorBoxTitle,
+                                    lock: true,
+                                    fixed: true,
+                                    content: '<div class="'+ errorBoxStyle+ '">' +errorBoxToUrl +'<p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">'+ errorBoxClose+ '</a></p></div>',
+                                    time: 3000
+                                });
+                            });
+                        }
+                    </script>
                 </if>
                 
             </div>
@@ -128,54 +248,6 @@
     <script type="text/javascript">
         function getID(id){
             return document.getElementById(id);
-        }
-
-
-
-        function CheckUsername(){
-            $.getJSON('__APP__/Api/Member/Mod/CheckUsername/username/'+getID('username').value, function(data){
-                var usernameMsg = getID("username-msg");
-                if(data.status != 0){
-                    usernameMsg.className = 'ch-box-error';
-                    getID("username").focus();
-                }
-                else{
-                    usernameMsg.className = 'ch-box-ok';
-                }
-                usernameMsg.innerHTML = data.info;
-            });
-        }
-
-
-
-        function CheckPassword(){
-            var password = getID("password");
-            var passwordMsg = getID('password-msg');
-            if(password.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
-                passwordMsg.className = 'ch-box-ok';
-                passwordMsg.innerHTML = '密码格式正确！';
-            }
-            else{
-                passwordMsg.className = 'ch-box-error';
-                passwordMsg.innerHTML = '请输入8-16位的密码！';
-                password.focus();
-            }
-        }
-
-
-
-        function CheckPassword2(){
-            var password2 = getID("password2");
-            var password2Msg = getID('password2-msg');
-            if(password2.value.search(/^([a-zA-Z0-9_-]){8,16}$/) != -1){
-                password2Msg.className = 'ch-box-ok';
-                password2Msg.innerHTML = '密码格式正确！';
-            }
-            else{
-                password2Msg.className = 'ch-box-error';
-                password2Msg.innerHTML = '请输入8-16位的密码！';
-                password2.focus();
-            }
         }
 
 
@@ -200,21 +272,6 @@
                     getID('Verify').src = "__APP__/Public/Verify";
                     verify.focus();
                 }
-            });
-        }
-
-
-
-        function Register(){
-            $.post('__APP__/Api/Member/Mod/Register', $("#register-form").serialize(), function(data){
-                    $.artDialog({
-                        id: 'errorBox_',
-                        title: '{:L('errorTitle')}',
-                        lock: true,
-                        fixed: true,
-                        time: 3000,
-                        content: '<div class="ch-box-error"><p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">请关闭此对话框返回修改您的注册信息并重新提交！</a></p></div>'
-                    });
             });
         }
 
