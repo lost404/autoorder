@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.1
+-- version 3.4.8
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2013 年 04 月 20 日 10:25
--- 服务器版本: 5.5.24-log
--- PHP 版本: 5.3.13
+-- 生成日期: 2013 年 04 月 29 日 18:58
+-- 服务器版本: 5.1.60
+-- PHP 版本: 5.2.17p1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -33,18 +33,28 @@ CREATE TABLE IF NOT EXISTS `ao_member` (
   `salt` int(11) NOT NULL,
   `regTime` text COLLATE utf8_bin NOT NULL,
   `group` int(11) NOT NULL,
-  `email` text COLLATE utf8_bin NOT NULL,
   `qq` text COLLATE utf8_bin NOT NULL,
   `phone` text COLLATE utf8_bin NOT NULL,
+  `sex` int(11) NOT NULL,
+  `professional` text COLLATE utf8_bin NOT NULL,
+  `introduction` longtext COLLATE utf8_bin NOT NULL,
   UNIQUE KEY `uid` (`uid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=4 ;
+
+-- --------------------------------------------------------
 
 --
--- 转存表中的数据 `ao_member`
+-- 表的结构 `ao_memberext`
 --
 
-INSERT INTO `ao_member` (`uid`, `username`, `password`, `salt`, `regTime`, `group`, `email`, `qq`, `phone`) VALUES
-(1, 'admin', '028d43536048af7cc2ccd7534a8d594b', 530828857, '1366451899', 1, 'mail@domain.com', '123456789', '12345678901');
+CREATE TABLE IF NOT EXISTS `ao_memberext` (
+  `uid` int(11) NOT NULL,
+  `money` int(11) NOT NULL,
+  `xinyu` int(11) NOT NULL,
+  `rank` int(11) NOT NULL,
+  `head` text COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`uid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
