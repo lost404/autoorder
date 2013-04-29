@@ -87,16 +87,29 @@
                 verify:false
             };
             $.post('__APP__/Api/Member/Mod/Login', $('#login_form').serialize(), function(data){
-                $.artDialog({
-                    id:'login_msg',
-                    title:'登录',
-                    content:data.info,
-                    lock:true,
-                    fixed:true
-                });
                 if(data.status != 0){
                     getId('Verify').src = '__APP__/Public/Verify';
                 }
+                if(data.status == 0){
+                    var errorBoxTitle = '<?php echo L('trueTitle');?>';
+                    var errorBoxStyle = 'ch-box-ok';
+                    var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/Index/index">';
+                    var errorBoxClose = '';
+                }
+                else{
+                    var errorBoxTitle = '<?php echo L('falseTitle');?>';
+                    var errorBoxStyle = 'ch-box-error';
+                    var errorBoxToUrl = '';
+                    var errorBoxClose =  '<?php echo L('closeBox');?>';
+                }
+                $.artDialog({
+                    id: 'agree',
+                    title: errorBoxTitle,
+                    lock: true,
+                    fixed: true,
+                    content: '<div class="'+ errorBoxStyle+ '">' +errorBoxToUrl +'<p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">'+ errorBoxClose+ '</a></p></div>',
+                    time: 3000
+                });
                 switch(data.status){
                     case 1:
                         login.verify.value = '';

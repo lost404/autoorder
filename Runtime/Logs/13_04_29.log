@@ -1,0 +1,1586 @@
+[ 2013-04-29T13:01:19+08:00 ] 127.0.0.1 /index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.019654s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019994s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013520s ]
+INFO: Run CheckLang Behavior [ RunTime:0.031820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045917s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.020722s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021025s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.148489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148804s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.017201s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.011921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.020523s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.016606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.067120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.012690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012973s ]
+
+[ 2013-04-29T13:01:19+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:01:50+08:00 ] 127.0.0.1 /index.php?s=/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002307s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001600s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001612s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024081s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001611s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001547s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001235s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006578s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002093s ]
+
+[ 2013-04-29T13:01:50+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:01:51+08:00 ] 127.0.0.1 /index.php?s=/Member/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005326s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004859s ]
+INFO: Run CheckLang Behavior [ RunTime:0.027494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032762s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008584s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.064625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001869s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001877s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001617s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007852s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003276s ]
+
+[ 2013-04-29T13:01:52+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002395s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001613s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004633s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:01:52+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:02:02+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006643s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002624s ]
+INFO: Run CheckLang Behavior [ RunTime:0.032879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036116s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002342s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001041s ]
+
+[ 2013-04-29T13:02:02+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002035s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001434s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004031s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:09:38+08:00 ] 127.0.0.1 /index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005197s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004938s ]
+INFO: Run CheckLang Behavior [ RunTime:0.013452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018838s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003140s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003459s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.093310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093549s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003321s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002552s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015310s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002409s ]
+
+[ 2013-04-29T13:09:38+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002473s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002712s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002536s ]
+INFO: Run CheckLang Behavior [ RunTime:0.004028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006873s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001588s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001772s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.048826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001429s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001614s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007171s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006582s ]
+
+[ 2013-04-29T13:09:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:09:41+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Agree
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009463s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008087s ]
+INFO: Run CheckLang Behavior [ RunTime:0.022968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031562s ]
+
+[ 2013-04-29T13:09:44+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002319s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001644s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005731s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001795s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002323s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049392s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001601s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001637s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001218s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006499s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001832s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2013-04-29T13:09:44+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003788s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003992s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003261s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009395s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:09:44+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:09:47+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002842s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002332s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005846s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001579s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.001418s ]
+
+[ 2013-04-29T13:09:57+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=5820
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003179s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003773s ]
+INFO: Run CheckLang Behavior [ RunTime:0.006104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010191s ]
+
+[ 2013-04-29T13:09:58+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006972s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005381s ]
+INFO: Run CheckLang Behavior [ RunTime:0.010629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016472s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002441s ]
+
+[ 2013-04-29T13:09:58+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007914s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004898s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014428s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001485s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.000604s ]
+
+[ 2013-04-29T13:09:58+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004694s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004897s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006197s ]
+INFO: Run CheckLang Behavior [ RunTime:0.007047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014574s ]
+
+[ 2013-04-29T13:09:58+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001692s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002156s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008268s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:10:12+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=1380
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001879s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002117s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001502s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+
+[ 2013-04-29T13:10:13+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006251s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006705s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005020s ]
+INFO: Run CheckLang Behavior [ RunTime:0.013515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018994s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002427s ]
+NOTIC: [8] Undefined offset:  3 /media/f/dev/autoorder/ThinkPHP/Lib/Core/Model.class.php 第 879 行.
+SQL: INSERT INTO `ao_member` (`username`,`password`,`salt`,`regTime`,`group`) VALUES ('admin','71b0b50996765e57fde272abae362256',353447784,1367212213,0) [ RunTime:0.543752s ]
+SQL: SHOW COLUMNS FROM `ao_member_ext` [ RunTime:0.001517s ]
+ERR: Table 'project_autoorder.ao_member_ext' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ao_member_ext`
+
+[ 2013-04-29T13:10:13+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=1380
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003396s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003594s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004058s ]
+INFO: Run CheckLang Behavior [ RunTime:0.007764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012100s ]
+
+[ 2013-04-29T13:10:13+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/admin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005342s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002977s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012064s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001455s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.000634s ]
+
+[ 2013-04-29T13:10:13+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002872s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003082s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002385s ]
+INFO: Run CheckLang Behavior [ RunTime:0.006643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009324s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:10:15+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002163s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001739s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001915s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044548s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001521s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001235s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2013-04-29T13:10:15+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:10:38+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/RegisterInfo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005402s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004400s ]
+INFO: Run CheckLang Behavior [ RunTime:0.017291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022183s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002361s ]
+SQL: UPDATE `ao_member` SET `qq`='1256927761',`phone`='15908117574',`sex`=0,`professional`='programmer',`introduction`='hello' WHERE ( uid=1 ) [ RunTime:0.129959s ]
+
+[ 2013-04-29T13:10:39+08:00 ] 127.0.0.1 /index.php?s=/Member/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002961s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003975s ]
+INFO: Run CheckLang Behavior [ RunTime:0.011824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016102s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001659s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001894s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.042395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042636s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001738s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002726s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011908s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002403s ]
+
+[ 2013-04-29T13:10:39+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002375s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001721s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004582s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:10:39+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:11:34+08:00 ] 127.0.0.1 /index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002135s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001614s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005064s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001629s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.077302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077490s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001270s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000950s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005704s ]
+
+[ 2013-04-29T13:11:34+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003018s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001480s ]
+INFO: Run CheckLang Behavior [ RunTime:0.004009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005778s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001569s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001755s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049966s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001447s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001416s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001197s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2013-04-29T13:11:34+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:11:36+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/RegOk
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005498s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005186s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014072s ]
+
+[ 2013-04-29T13:11:40+08:00 ] 127.0.0.1 /index.php?s=/Member/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002272s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002476s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003070s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012348s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006543s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006797s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.057392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001753s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002489s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008347s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008963s ]
+
+[ 2013-04-29T13:11:40+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005206s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009406s ]
+INFO: Run CheckLang Behavior [ RunTime:0.011474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021429s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:11:40+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:11:44+08:00 ] 127.0.0.1 /index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011182s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007970s ]
+INFO: Run CheckLang Behavior [ RunTime:0.007764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016171s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005935s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006159s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.053253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053749s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002119s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012352s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007767s ]
+
+[ 2013-04-29T13:11:44+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002207s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002446s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006710s ]
+INFO: Run CheckLang Behavior [ RunTime:0.006711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001551s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063830s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001849s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002032s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003617s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010397s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004060s ]
+
+[ 2013-04-29T13:11:45+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:11:46+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Agree
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002021s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001494s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004688s ]
+
+[ 2013-04-29T13:11:49+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004263s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004495s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010295s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013680s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001476s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.069322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069506s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001332s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001344s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005673s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2013-04-29T13:11:49+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001498s ]
+INFO: Run CheckLang Behavior [ RunTime:0.009120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010911s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:11:49+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:11:52+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002165s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001525s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005267s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001501s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='test' ) LIMIT 1   [ RunTime:0.000647s ]
+
+[ 2013-04-29T13:12:02+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=3054
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001891s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002089s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001480s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004099s ]
+
+[ 2013-04-29T13:12:02+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001938s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001385s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004631s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001437s ]
+NOTIC: [8] Undefined offset:  3 /media/f/dev/autoorder/ThinkPHP/Lib/Core/Model.class.php 第 879 行.
+SQL: INSERT INTO `ao_member` (`username`,`password`,`salt`,`regTime`,`group`) VALUES ('test','4e31a416b79aede85241fc11b2859ff5',360310302,1367212322,0) [ RunTime:0.136980s ]
+SQL: SHOW COLUMNS FROM `ao_member_ext` [ RunTime:0.001508s ]
+ERR: Table 'project_autoorder.ao_member_ext' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ao_member_ext`
+SQL: INSERT INTO `ao_member_ext` (`uid`,`rank`,`xinyu`,`money`,`head`) VALUES (2,0,0,0,'Rank 1') [ RunTime:0.000353s ]
+ERR: Table 'project_autoorder.ao_member_ext' doesn't exist
+ [ SQL语句 ] : INSERT INTO `ao_member_ext` (`uid`,`rank`,`xinyu`,`money`,`head`) VALUES (2,0,0,0,'Rank 1')
+
+[ 2013-04-29T13:12:02+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/test
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.012423s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012629s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004424s ]
+INFO: Run CheckLang Behavior [ RunTime:0.013969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018670s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001566s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='test' ) LIMIT 1   [ RunTime:0.000636s ]
+
+[ 2013-04-29T13:12:02+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=3054
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.027886s ]
+INFO: [ route_check ] --END-- [ RunTime:0.028093s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001375s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003749s ]
+
+[ 2013-04-29T13:12:03+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002069s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007429s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009977s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:12:04+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002176s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005088s ]
+INFO: Run CheckLang Behavior [ RunTime:0.010700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016102s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002241s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004600s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001293s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002095s ]
+
+[ 2013-04-29T13:12:04+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:21+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/RegisterInfo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005162s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005404s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004327s ]
+INFO: Run CheckLang Behavior [ RunTime:0.012473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017186s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002448s ]
+SQL: UPDATE `ao_member` SET `qq`='',`phone`='',`sex`=null,`professional`='',`introduction`='' WHERE ( uid=2 ) [ RunTime:0.142533s ]
+
+[ 2013-04-29T13:12:25+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002071s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001454s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004795s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005006s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.081920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082170s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001408s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001358s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005563s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001560s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001716s ]
+
+[ 2013-04-29T13:12:25+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:32+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/RegisterInfo
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005250s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005528s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004486s ]
+INFO: Run CheckLang Behavior [ RunTime:0.014083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018964s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002009s ]
+SQL: UPDATE `ao_member` SET `qq`='1313',`phone`='12412',`sex`=0,`professional`='1231',`introduction`='1241' WHERE ( uid=2 ) [ RunTime:0.155372s ]
+
+[ 2013-04-29T13:12:33+08:00 ] 127.0.0.1 /index.php?s=/Member/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004323s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001605s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005231s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025634s ]
+INFO: [ view_template ] --END-- [ RunTime:0.025855s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028194s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001475s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001617s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001200s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006339s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2013-04-29T13:12:34+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002078s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003197s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005699s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:12:34+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:36+08:00 ] 127.0.0.1 /index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002144s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001937s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010939s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002827s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003153s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063230s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003590s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017528s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007697s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007952s ]
+
+[ 2013-04-29T13:12:36+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/4
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002050s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009813s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005347s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005593s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.075956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076168s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006296s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002815s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004630s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018569s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007837s ]
+
+[ 2013-04-29T13:12:36+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:37+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/RegOk
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008871s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005065s ]
+INFO: Run CheckLang Behavior [ RunTime:0.016992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022516s ]
+
+[ 2013-04-29T13:12:41+08:00 ] 127.0.0.1 /index.php?s=/Member/Login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002143s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006871s ]
+INFO: Run CheckLang Behavior [ RunTime:0.006020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002799s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003030s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001432s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001278s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000975s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2013-04-29T13:12:41+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001618s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004112s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:12:41+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:42+08:00 ] 127.0.0.1 /index.php?s=/Member/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006399s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005792s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011750s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001521s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062653s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.006759s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001743s ]
+
+[ 2013-04-29T13:12:42+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003669s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002816s ]
+INFO: Run CheckLang Behavior [ RunTime:0.004225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.062402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001543s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005754s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004024s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014999s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002460s ]
+
+[ 2013-04-29T13:12:43+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:44+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Agree
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005732s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005269s ]
+INFO: Run CheckLang Behavior [ RunTime:0.022067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027811s ]
+
+[ 2013-04-29T13:12:47+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001870s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002072s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001514s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005536s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.047646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002678s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010218s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003796s ]
+
+[ 2013-04-29T13:12:47+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002012s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001437s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:12:47+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:12:52+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/test2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002064s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001453s ]
+INFO: Run CheckLang Behavior [ RunTime:0.003319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005035s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002265s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='test2' ) LIMIT 1   [ RunTime:0.001051s ]
+
+[ 2013-04-29T13:13:04+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=8644
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007024s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005387s ]
+INFO: Run CheckLang Behavior [ RunTime:0.012184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018048s ]
+
+[ 2013-04-29T13:13:06+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007136s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005268s ]
+INFO: Run CheckLang Behavior [ RunTime:0.015660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021385s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.002357s ]
+NOTIC: [8] Undefined offset:  3 /media/f/dev/autoorder/ThinkPHP/Lib/Core/Model.class.php 第 879 行.
+SQL: INSERT INTO `ao_member` (`username`,`password`,`salt`,`regTime`,`group`) VALUES ('test2','5a2d79d7fb22c3a84d65d0d28d7187cd',895372627,1367212386,0) [ RunTime:0.118494s ]
+SQL: SHOW COLUMNS FROM `ao_member_ext` [ RunTime:0.001648s ]
+ERR: Table 'project_autoorder.ao_member_ext' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ao_member_ext`
+SQL: INSERT INTO `ao_member_ext` (`uid`,`rank`,`xinyu`,`money`,`head`) VALUES (3,0,0,0,'Rank 1') [ RunTime:0.000727s ]
+ERR: Table 'project_autoorder.ao_member_ext' doesn't exist
+ [ SQL语句 ] : INSERT INTO `ao_member_ext` (`uid`,`rank`,`xinyu`,`money`,`head`) VALUES (3,0,0,0,'Rank 1')
+
+[ 2013-04-29T13:13:06+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=8644
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003884s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004164s ]
+INFO: Run CheckLang Behavior [ RunTime:0.004499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008938s ]
+
+[ 2013-04-29T13:13:06+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/test2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004686s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002803s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008834s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001486s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='test2' ) LIMIT 1   [ RunTime:0.000625s ]
+
+[ 2013-04-29T13:13:06+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002055s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001393s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003803s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
+[ 2013-04-29T13:13:09+08:00 ] 127.0.0.1 /index.php?s=/Member/Register/Step/3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006795s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003574s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009833s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007816s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080675s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004980s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006186s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005925s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020146s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003092s ]
+
+[ 2013-04-29T13:13:10+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:13:12+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-04-29T13:13:17+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/Register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006996s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 56 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005129s ]
+INFO: Run CheckLang Behavior [ RunTime:0.015162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020748s ]
+
+[ 2013-04-29T13:13:18+08:00 ] 127.0.0.1 /index.php?s=/Api/Member/Mod/CheckUsername/username/test2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011324s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011533s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004251s ]
+INFO: Run CheckLang Behavior [ RunTime:0.005749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010275s ]
+SQL: SHOW COLUMNS FROM `ao_member` [ RunTime:0.001549s ]
+SQL: SELECT * FROM `ao_member` WHERE ( username='test2' ) LIMIT 1   [ RunTime:0.002090s ]
+
+[ 2013-04-29T13:13:18+08:00 ] 127.0.0.1 /index.php?s=/Public/VerifyCheck&Verify=
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005561s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlentities() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] htmlspecialchars() expects parameter 2 to be long, string given /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006879s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016133s ]
+
+[ 2013-04-29T13:13:18+08:00 ] 127.0.0.1 /index.php?s=/Public/Verify
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002052s ]
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+NOTIC: [2] Wrong parameter count for stripslashes() /media/f/dev/autoorder/ThinkPHP/Lib/Core/App.class.php 第 57 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001507s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003860s ]
+NOTIC: [8] Use of undefined constant png - assumed 'png' /media/f/dev/autoorder/Lib/Action/PublicAction.class.php 第 5 行.
+
