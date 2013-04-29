@@ -26,18 +26,11 @@
             </div>
             <div id="news_feed">
                 <div class="news_feed container_16">
-                    <div class="news_feed_each">
-                        <a href="__APP__/News/View/Id/3" class="grid_12 news_feed_title">这是第一个测试公告！</a>
-                        <a class="grid_4 news_feed_time">2013-4-13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                    </div>
-                    <div class="news_feed_each">
-                        <a href="__APP__/News/View/Id/2" class="grid_12 news_feed_title">这是第二个测试公告！</a>
-                        <a class="grid_4 news_feed_time">2013-4-13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                    </div>
-                    <div class="news_feed_each">
-                        <a href="__APP__/News/View/Id/1" class="grid_12 news_feed_title">这是第三个测试公告！</a>
-                        <a class="grid_4 news_feed_time">2013-4-13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                    </div>
+                    <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$News): $mod = ($i % 2 );++$i;?><div class="news_feed_each">
+                            <a href="__APP__/News/View/Id/<?php echo ($News["nid"]); ?>" class="grid_12 news_feed_title" target="_blank"><?php echo ($News["title"]); ?></a>
+                            <a class="grid_4 news_feed_time"><?php echo (date("Y-m-d h:i:s",$News["time"])); ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                   
                 </div>
             </div>
         </div>

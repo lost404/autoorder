@@ -38,9 +38,7 @@
                                 $data['info'] = L('registerSuccess');
                                 $Ext = new Model();
                                 $extSql = "INSERT INTO ao_memberext(uid, level, credit, cash)VALUES(". $result. ", 0, 0, 0)";
-                                $data['data']['sql'] = $extSql;
                                 $extRet = $Ext->execute($extSql);
-                                $data['data']['extRet'] = $extRet;
                             }
                             else{
                                 $data['status'] = 3;
@@ -166,6 +164,45 @@
 
                     break;
        
+            }
+            $this->ajaxReturn($data, 'JSON');
+        }
+
+
+
+        function News(){
+            $data = array(
+                'status' => -1,
+                'info' => '',
+                'data' => array()
+                );
+            $mod = $this->_get('Mod');
+            switch ($mod){
+                case 'Add':
+                    if(session('Verify') != md5($this->_post('verify'))){
+                        $data['status'] = 1;
+                        $data['info'] = L('verifyError');
+                    }
+                    else{
+                        $News = D("News");
+                        if (!$News->create()){
+                            $data['status'] = 2;
+                            $data['info'] = $News->getError();
+                        }
+                        else{
+                            $result = $News->add();
+                            if($result) {
+                                $data['status'] = 0;
+                                $data['info'] = L('newsAddOk');
+                            }
+                            else{
+                                $data['status'] = 3;
+                                $data['info'] = L('newsAddFail');
+                            }
+                        }
+                    }
+                    session('Verify', null);
+                    break;
             }
             $this->ajaxReturn($data, 'JSON');
         }

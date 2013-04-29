@@ -1,7 +1,15 @@
 <?php
     class NewsAction extends Action{
         public function View(){
-            $this->display();
+            $nid = intval($this->_get('Id'));
+            $News = M('News');
+            $this->data = $News->where('nid='. $nid)->find();
+            if($this->data['nid'] == null){
+                $this->display('NoNews');
+            }
+            else{
+                $this->display();
+            }
         }
 
 

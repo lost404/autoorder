@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2013 年 04 月 29 日 19:49
+-- 生成日期: 2013 年 04 月 29 日 21:10
 -- 服务器版本: 5.1.60
 -- PHP 版本: 5.2.17p1
 
@@ -54,6 +54,20 @@ CREATE TABLE IF NOT EXISTS `ao_memberext` (
   `level` int(11) NOT NULL,
   PRIMARY KEY (`uid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `ao_news`
+--
+
+CREATE TABLE IF NOT EXISTS `ao_news` (
+  `nid` int(11) NOT NULL AUTO_INCREMENT,
+  `title` text COLLATE utf8_bin NOT NULL,
+  `content` longtext COLLATE utf8_bin NOT NULL,
+  `time` text COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`nid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=4 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

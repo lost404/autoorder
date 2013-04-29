@@ -19,31 +19,14 @@
     </div>
 </div>
 
-    <div id="news" class="container_16">
-        <div class="grid_16 ch-box-lite">
-            <div class="container_16">
-                
-                <div id="news_main" class="grid_12">
-                    <div id="news_title">
-                        <a><h3><?php echo ($data["title"]); ?></h3></a>
-                    </div>
-                    <hr />
-                    <div id="news_content">
-        	            <?php echo ($data["content"]); ?>
-                    </div>
-                    <hr />
-                    <div>
-                        <center>
-                            <h4>
-                                <a href="javascript:window.opener=null;window.open('','_self');window.close();"><?php echo L('closeWindow');?></a>
-                            </h4>
-                        </center>
-                    </div>
-                </div>
-                <div id="news_right" class="grid_4">
-                    <div id="news_like">
-                        <a><?php echo L('otherNews');?></a>
-                    </div>
+    <div id="main" class="container_16">
+        <div id="main-box" class="grid_16 ch-box-lite">
+            <div id="no-news" class="container_16">
+                <div id="no-news-main" class="grid_16">
+                    <center>
+                        <h3><?php echo L('noNews');?></h3>
+                        <h5><a onclick="javascript:history.go(-1);"><?php echo L('return');?></a></h5>
+                    </center>
                 </div>
             </div>
         </div>

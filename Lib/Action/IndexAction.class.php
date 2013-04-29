@@ -2,7 +2,9 @@
 class IndexAction extends Action {
     public function index(){
         $this->id = $this->_get('id');
-	    $this->display();
+        $News = M('News');
+        $this->news = $News->order('nid desc')->limit('5')->select();
+        $this->display();
     }
 
 

@@ -22,33 +22,33 @@
     <div id="news-add" class="container_16">
         <div id="news-add-main" class="grid_16 ch-box-lite">
             <div id="news-add-form-area">
-                <a class="ao_box_head"><h3>发布公告</h3></a>
-                <form id="news-add-form" name="news-add-form" method="post">
-                    <div class="ch-form-row">
-                        <label>标题：</label>
-                        <input type="text" id="news-add-title" name="title" size="80"/>
-                    </div>
-                    <div class="ch-form-row">
-                        <label>内容：</label>
-                        <textarea cols="80" rows="15" id="content"></textarea>
-                    </div>
-                    <div class="ch-form-row">
-                        <label>验证码：</label>
-                        <input type="text" name="verify" id="login_verify" size="30"/>
-                        <i class="ch-form-ico-inner ch-icon-refresh"></i>
-                    </div>
-                    <div class="ch-form-row">
-                        <label></label>
-                        <img id="Verify" src="__APP__/Public/Verify" />
-                        <font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新。</font>   
-                    </div>
-                </form>
-                    <div class="ch-form-row">
-                        <label>&nbsp;</label>
-                        <button class="ch-btn" id="add-news-btn">发布</button>
-                        <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                        <button class="ch-btn ch-btn-skin" id="add-news-btn">取消</button>
-                    </div>
+                <?php if($userInfo["group"] == 1): ?><a class="ao_box_head"><h3>发布公告</h3></a>
+                    <form id="news-add-form" name="news-add-form" method="post">
+                        <div class="ch-form-row">
+                            <label>标题：</label>
+                            <input type="text" id="news-add-title" name="title" size="80"/>
+                        </div>
+                        <div class="ch-form-row">
+                            <label>内容：</label>
+                            <textarea cols="80" rows="15" id="content" name="content"></textarea>
+                        </div>
+                        <div class="ch-form-row">
+                            <label>验证码：</label>
+                            <input type="text" name="verify" id="login_verify" size="30"/>
+                            <i class="ch-form-ico-inner ch-icon-refresh"></i>
+                        </div>
+                        <div class="ch-form-row">
+                            <label></label>
+                            <img id="Verify" src="__APP__/Public/Verify" />
+                            <font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新。</font>   
+                        </div>
+                    </form>
+                        <div class="ch-form-row">
+                            <label>&nbsp;</label>
+                            <button class="ch-btn" id="add-news-btn" onclick="newsAdd();">发布</button>
+                            <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <button class="ch-btn ch-btn-skin" id="add-news-btn">取消</button>
+                        </div>
             </div>
         </div>
     </div>
@@ -61,7 +61,51 @@
         function getId(id){
             return document.getElementById(id);
         }
+
+        function newsAdd(){
+            $.post('__APP__/Api/News/Mod/Add', $('#news-add-form').serialize(), function(data){
+                if(data.status != 0){
+                   getId('Verify').src = "__APP__/Public/Verify";
+                }
+                if(data.status == 0){
+                    var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/News/View/Id/'+ data.data.nid+ '">';
+                    var errorBoxStyle = 'ch-box-ok';
+                    var errorBoxTitle = '<?php echo L('trueTitle');?>';
+                    var errorBoxClose =  '';
+                }
+                else if(data.status == 3){
+                    var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/News/Add">';
+                    var errorBoxStyle = 'ch-box-error';
+                    var errorBoxTitle = '<?php echo L('falseTitle');?>';
+                    var errorBoxClose =  '';
+                }
+                else{
+                    var errorBoxToUrl = '';
+                    var errorBoxStyle = 'ch-box-error';
+                    getID('verify').value = '';
+                    getID('Verify').src = "__APP__/Public/Verify";
+                    var errorBoxTitle = '<?php echo L('falseTitle');?>';
+                    var errorBoxClose =  '<?php echo L('closeBox');?>';
+                }
+                $.artDialog({
+                    id: 'errorBox_',
+                    title: errorBoxTitle,
+                    lock: true,
+                    fixed: true,
+                    time: 3000,
+                    content: '<div class="'+ errorBoxStyle+ '">' +errorBoxToUrl +'<p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">'+ errorBoxClose+ '</a></p></div>'
+                });
+            });
+        }
     </script>
+    <?php else: ?>
+                    <center>
+                        <h3><?php echo L('groupLimit');?><h3>
+                            <h5><a onclick="javascript:history.go(-1);"><?php echo L('return');?></a></h5>
+                    </center>
+            </div>
+        </div>
+    </div><?php endif; ?>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
     </div>

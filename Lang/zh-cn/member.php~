@@ -39,8 +39,8 @@
         'agreeAgreement' => '同意注册协议，下一步',
         'verifyOk' => '验证码正确！',
         'verifyError' => '验证码错误！',
-        'newsAddOk' => '公告添加成功！',
-        'newsAddFail' => '公告添加失败，请刷新页面重新添加！'
+        'newsAddOk' => '',
+        'newsAddFail' => ''
         
     );
 ?>
