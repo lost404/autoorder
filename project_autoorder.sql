@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost
--- 生成日期: 2013 年 04 月 29 日 18:58
+-- 生成日期: 2013 年 04 月 29 日 19:49
 -- 服务器版本: 5.1.60
 -- PHP 版本: 5.2.17p1
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `ao_member` (
   `professional` text COLLATE utf8_bin NOT NULL,
   `introduction` longtext COLLATE utf8_bin NOT NULL,
   UNIQUE KEY `uid` (`uid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -49,10 +49,9 @@ CREATE TABLE IF NOT EXISTS `ao_member` (
 
 CREATE TABLE IF NOT EXISTS `ao_memberext` (
   `uid` int(11) NOT NULL,
-  `money` int(11) NOT NULL,
-  `xinyu` int(11) NOT NULL,
-  `rank` int(11) NOT NULL,
-  `head` text COLLATE utf8_bin NOT NULL,
+  `cash` int(11) NOT NULL,
+  `credit` int(11) NOT NULL,
+  `level` int(11) NOT NULL,
   PRIMARY KEY (`uid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 

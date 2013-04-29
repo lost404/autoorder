@@ -36,15 +36,11 @@
                                 $data['data']['uid'] = $result;
                                 session('regStatus', 3);
                                 $data['info'] = L('registerSuccess');
-                                $extData = array(
-                                    'uid' => $result,
-                                    'rank' => 0,
-                                    'xinyu' => 0,
-                                    'money' => 0,
-                                    'head' => 'Rank 1'
-                                    );
-                                $Ext = D('MemberExt');
-                                $extRet = $Ext->add($extData);
+                                $Ext = new Model();
+                                $extSql = "INSERT INTO ao_memberext(uid, level, credit, cash)VALUES(". $result. ", 0, 0, 0)";
+                                $data['data']['sql'] = $extSql;
+                                $extRet = $Ext->execute($extSql);
+                                $data['data']['extRet'] = $extRet;
                             }
                             else{
                                 $data['status'] = 3;
