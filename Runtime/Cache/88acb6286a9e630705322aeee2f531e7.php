@@ -19,6 +19,39 @@
     </div>
 </div>
 
+    <div id="main" class="container_16">
+        <div id="main-frame" class="grid_16 ch-box-lite">
+            <div id="news-list" class="container_16">
+                <div id="news-list-main" class="grid_16">
+                    <table class="ch-datagrid">
+                        <thead>
+                            <tr>
+                                <th scope="col"><?php echo L('newsTitle');?></th>
+                                <th scope="col"><?php echo L('saveDate');?></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$News): $mod = ($i % 2 );++$i;?><tr>
+                                    <td><a href="__URL__/View/Id/<?php echo ($News["nid"]); ?>" target="_blank"><?php echo ($News["title"]); ?></a></td>
+                                    <td><?php echo (date("Y-m-d H:i:s",$News["time"])); ?></td>
+                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </tbody>
+                    </table>
+                    <div class="ch-box-lite">
+                        <ul class="ch-pagination">
+                            <li><a type="prev"><?php echo L('Previous');?></a></li>
+                            <li class="ch-pagination-current"><a href="__ACTION__/Id/1/Page/1">1</a></li>
+                            <li><a href="__ACTION__/Id/1/Page/2">2</a></li>
+                            <li><a href="__ACTION__/Id/1/Page/3">3</a></li>
+                            <li><a href="__ACTION__/Id/1/Page/4">4</a></li>
+                            <li><a href="__ACTION__/Id/1/Page/5">5</a></li>
+                            <li><a type="next" href="__ACTION__/Id/1/Page/2"><?php echo L('Next');?></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
    <div class="container_16">
         <div class="grid_16 extCenter ch-box-lite">Copyright&nbsp;&copy;&nbsp;Lost404&nbsp;&nbsp;2013&nbsp;-&nbsp;2013&nbsp;&nbsp;</div>
     </div>

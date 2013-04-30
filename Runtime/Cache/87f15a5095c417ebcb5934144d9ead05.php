@@ -22,33 +22,29 @@
     <div id="news-add" class="container_16">
         <div id="news-add-main" class="grid_16 ch-box-lite">
             <div id="news-add-form-area">
-                <?php if($userInfo["group"] == 1): ?><a class="ao_box_head"><h3>发布公告</h3></a>
+                <?php if($userInfo["group"] == 1): ?><!--<script type="text/javascript" src="Static/editor/editor_config.js"></script>
+                    <script type="text/javascript" src="Static/editor/editor_all.js"></script>-->
+                    <a class="ao_box_head"><h3>发布公告</h3></a>
                     <form id="news-add-form" name="news-add-form" method="post">
-                        <div class="ch-form-row">
-                            <label>标题：</label>
-                            <input type="text" id="news-add-title" name="title" size="80"/>
-                        </div>
-                        <div class="ch-form-row">
-                            <label>内容：</label>
-                            <textarea cols="80" rows="15" id="content" name="content"></textarea>
-                        </div>
-                        <div class="ch-form-row">
-                            <label>验证码：</label>
+                        <label>标题：</label></p>
+                            <input type="text" id="news-add-title" name="title" size="80"/></p>
+                        
+                        <label>内容：</label></p>
+                            <textarea cols="80" rows="15" id="content" name="content"></textarea></p>
+                        
+                        <label>验证码：</label></p>
                             <input type="text" name="verify" id="login_verify" size="30"/>
-                            <i class="ch-form-ico-inner ch-icon-refresh"></i>
-                        </div>
-                        <div class="ch-form-row">
-                            <label></label>
+                            <i class="ch-form-ico-inner ch-icon-refresh"></i></p>
+                        <label></label>
                             <img id="Verify" src="__APP__/Public/Verify" />
-                            <font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新。</font>   
-                        </div>
+                            <font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新。</font></p>   
+                        
                     </form>
-                        <div class="ch-form-row">
-                            <label>&nbsp;</label>
+                        <label>&nbsp;</label>
                             <button class="ch-btn" id="add-news-btn" onclick="newsAdd();">发布</button>
                             <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
                             <button class="ch-btn ch-btn-skin" id="add-news-btn">取消</button>
-                        </div>
+                        </p>
             </div>
         </div>
     </div>
@@ -97,6 +93,9 @@
                 });
             });
         }
+
+        /*var editor = new UE.ui.Editor();
+        editor.render("content");*/
     </script>
     <?php else: ?>
                     <center>

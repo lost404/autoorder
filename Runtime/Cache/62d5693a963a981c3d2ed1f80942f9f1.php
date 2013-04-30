@@ -22,15 +22,22 @@
     <div id="news" class="container_16">
         <div id="news_main" class="grid_16 ch-box-lite">
             <div id="news_head">
-                <h5><a class="ao_box_head"><b>公告</b></a><?php if($userInfo["group"] == 1): ?><a class="ao_box_head ao_right" href="__APP__/News/Add"><b>添加公告</b><a/><?php endif; ?></h5>
+                <h5><a class="ao_box_head"><b>公告</b></a><?php if($userInfo["group"] == 1): ?><a class="ao_box_head ao_right" href="__APP__/News/Add"><b>添加公告&nbsp;&nbsp;</b><a/><?php endif; ?></h5>
             </div>
+            <hr />
             <div id="news_feed">
                 <div class="news_feed container_16">
                     <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$News): $mod = ($i % 2 );++$i;?><div class="news_feed_each">
                             <a href="__APP__/News/View/Id/<?php echo ($News["nid"]); ?>" class="grid_12 news_feed_title" target="_blank"><?php echo ($News["title"]); ?></a>
-                            <a class="grid_4 news_feed_time"><?php echo (date("Y-m-d h:i:s",$News["time"])); ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a class="grid_4 news_feed_time"><?php echo (date("Y-m-d",$News["time"])); ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            </br>
+                        <hr class="grid_16"/>
                         </div><?php endforeach; endif; else: echo "" ;endif; ?>
-                   
+                    <div id="news-more" class="grid_16">
+                        <font class="ao_right">
+                            <a href="__APP__/News/Index/P/1" target="_blank"><?php echo L('more');?></a><a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        </font>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,6 +48,7 @@
             <div id="order_head">
                 <a class="ao_box_head"><h5><b>订单</b></h5></a>
             </div>
+            <hr />
             <div id="order_box1" class="container_16">
                 <div id="order_box1_main" class="grid_15 ch-box-lite">
                     <div id="order_box1_head">

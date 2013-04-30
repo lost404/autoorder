@@ -193,6 +193,7 @@
                             $result = $News->add();
                             if($result) {
                                 $data['status'] = 0;
+                                $data['data']['nid'] = $result;
                                 $data['info'] = L('newsAddOk');
                             }
                             else{

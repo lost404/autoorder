@@ -35,6 +35,8 @@
                     <div>
                         <center>
                             <h4>
+                                <a href="__APP__/Index/index"><?php echo L('returnIndex');?></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a href="__APP__/News/Index"><?php echo L('returnNews');?></a>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <a href="javascript:window.opener=null;window.open('','_self');window.close();"><?php echo L('closeWindow');?></a>
                             </h4>
                         </center>
