@@ -10,6 +10,8 @@
         'returnIndex' => '返回首页',
         'newsTitle' => '公告标题',
         'saveDate' => '发布日期',
-        'returnNews' => ''
+        'returnNews' => '返回公告列表'，
+        'newsAddTitleLen' => '请输入3到30字的标题！',
+        'newsAddContentLen' => '请输入10到5000字的内容！'
     );
 ?>

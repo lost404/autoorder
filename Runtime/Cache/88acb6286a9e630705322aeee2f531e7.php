@@ -39,13 +39,7 @@
                     </table>
                     <div class="ch-box-lite">
                         <ul class="ch-pagination">
-                            <li><a type="prev"><?php echo L('Previous');?></a></li>
-                            <li class="ch-pagination-current"><a href="__ACTION__/Id/1/Page/1">1</a></li>
-                            <li><a href="__ACTION__/Id/1/Page/2">2</a></li>
-                            <li><a href="__ACTION__/Id/1/Page/3">3</a></li>
-                            <li><a href="__ACTION__/Id/1/Page/4">4</a></li>
-                            <li><a href="__ACTION__/Id/1/Page/5">5</a></li>
-                            <li><a type="next" href="__ACTION__/Id/1/Page/2"><?php echo L('Next');?></a></li>
+                            <?php echo ($aoPage); ?>
                         </ul>
                     </div>
                 </div>

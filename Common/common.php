@@ -21,12 +21,19 @@
 
 
 
-    function page($page, $pages, $url){
+    function aoPage($page, $pages, $url){
         $pageRet = '';
-        if($page < 5){
-            //$pageRet.= ($page == 1)?('<li><a type="prev">'. L('Previous'). '</a></li>'):('<li><a type="prev" href="'. $url. $page-1. '">'. L('Previous'). '</a></li>');
+        $pageRet.= '<li><a type="prev" href="'. $url. '1">'. L('Index'). '</a></li>';
+        if($page == 1){
+            $pageRet.= '<li><a>'. L('Previous'). '</a></li>';
+        }
+        else{
+            $temp = $page - 1;
+            $pageRet.= '<li><a type="prev" href="'. $url. $temp. '">'. L('Previous'). '</a></li>';
+        }
+        if($pages < 5){
             for($i = 1; $i < $pages+1; $i++){
-                if($i = $page){
+                if($i == $page){
                     $pageRet.= '<li class="ch-pagination-current"><a href="'. $url. $i. '">'. $i. '</a></li>';
                 }
                 else{
@@ -34,6 +41,47 @@
                 }
             }
         }
+        else{
+            if($page < 5){
+                for($i = 1; $i < 6; $i++){
+                    if($i == $page){
+                        $pageRet.= '<li class="ch-pagination-current"><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                    else{
+                        $pageRet.= '<li><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                }
+            }
+            elseif($page > $pages - 4) {
+                for($i = $pages-4; $i < $pages+1; $i++){
+                    if($i == $page){
+                        $pageRet.= '<li class="ch-pagination-current"><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                    else{
+                        $pageRet.= '<li><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                }
+            }
+            else{
+                for($i = $page-2; $i < $page+3; $i++){
+                    if($i == $page){
+                        $pageRet.= '<li class="ch-pagination-current"><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                    else{
+                        $pageRet.= '<li><a href="'. $url. $i. '">'. $i. '</a></li>';
+                    }
+                }
+            }
+        }
+        if($page == $pages){
+            $pageRet.= '<li><a>'. L('Next'). '</a></li>';
+        }
+        else{
+            $temp = $page + 1;
+            $pageRet.= '<li><a type="next" href="'. $url. $temp. '">'. L('Next'). '</a></li>';
+        }
+        $pageRet.= '<li><a type="next" href="'. $url. $pages. '">'. L('Last'). '</a></li>';
+        return $pageRet;
     }
 
 ?>

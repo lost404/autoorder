@@ -25,6 +25,8 @@
 'newAddOk' => '公告添加成功！',
         'newsAddOk' => '公告添加成功！',
         'newsAddFail' => '公告添加失败！',
+        'newsAddTitleLen' => '请输入3到30字的标题！',
+        'newsAddContentLen' => '请输入10到5000字的内容！'
 
     );
 ?>

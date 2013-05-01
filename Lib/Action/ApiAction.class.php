@@ -179,12 +179,18 @@
             $mod = $this->_get('Mod');
             switch ($mod){
                 case 'Add':
-                    if(session('Verify') != md5($this->_post('verify'))){
+                    $News = D("News");
+                    $titleLen = strlen($this->_post('title'));
+                    $contentLen = strlen($this->_post('content'));
+                    if($titleLen < 3 || $titleLen > 30){
                         $data['status'] = 1;
-                        $data['info'] = L('verifyError');
+                        $data['info'] = L('newsAddTitleLen');
+                    }
+                    elseif($contentLen < 10 || $contentLen > 5000){
+                        $data['status'] = 1;
+                        $data['info'] = L('newsAddContentLen');
                     }
                     else{
-                        $News = D("News");
                         if (!$News->create()){
                             $data['status'] = 2;
                             $data['info'] = $News->getError();
@@ -202,7 +208,6 @@
                             }
                         }
                     }
-                    session('Verify', null);
                     break;
             }
             $this->ajaxReturn($data, 'JSON');

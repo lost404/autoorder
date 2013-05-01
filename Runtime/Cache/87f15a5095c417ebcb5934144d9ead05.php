@@ -27,43 +27,29 @@
                     <a class="ao_box_head"><h3>发布公告</h3></a>
                     <form id="news-add-form" name="news-add-form" method="post">
                         <label>标题：</label></p>
-                            <input type="text" id="news-add-title" name="title" size="80"/></p>
+                            <input type="text" id="news-add-title" name="title" size="80" placeholder="<?php echo L('newsAddTitleLen');?>"/></p>
                         
                         <label>内容：</label></p>
-                            <textarea cols="80" rows="15" id="content" name="content"></textarea></p>
-                        
-                        <label>验证码：</label></p>
-                            <input type="text" name="verify" id="login_verify" size="30"/>
-                            <i class="ch-form-ico-inner ch-icon-refresh"></i></p>
-                        <label></label>
-                            <img id="Verify" src="__APP__/Public/Verify" />
-                            <font class="register_verify_info">&nbsp;&nbsp;&nbsp;看不清？点击验证码刷新。</font></p>   
+                            <textarea cols="80" rows="15" id="content" name="content" placeholder="<?php echo L('newsAddContentLen');?>"></textarea></p>  
                         
                     </form>
                         <label>&nbsp;</label>
                             <button class="ch-btn" id="add-news-btn" onclick="newsAdd();">发布</button>
                             <a>&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                            <button class="ch-btn ch-btn-skin" id="add-news-btn">取消</button>
+                            <button class="ch-btn ch-btn-skin" id="add-news-btn" onclick="javascript:history.go(-1);">取消</button>
                         </p>
             </div>
         </div>
     </div>
 <script src="./Static/js/ao.js"></script>
     <script type="text/javascript">
-        $("#Verify").click(function(){
-            getId('Verify').src = "__APP__/Public/Verify";
-        });
-
         function getId(id){
             return document.getElementById(id);
         }
 
         function newsAdd(){
             $.post('__APP__/Api/News/Mod/Add', $('#news-add-form').serialize(), function(data){
-                if(data.status != 0){
-                   getId('Verify').src = "__APP__/Public/Verify";
-                }
-                if(data.status == 0){
+                /*if(data.status == 0){
                     var errorBoxToUrl = '<meta http-equiv="refresh" content="3;url=__APP__/News/View/Id/'+ data.data.nid+ '">';
                     var errorBoxStyle = 'ch-box-ok';
                     var errorBoxTitle = '<?php echo L('trueTitle');?>';
@@ -90,7 +76,13 @@
                     fixed: true,
                     time: 3000,
                     content: '<div class="'+ errorBoxStyle+ '">' +errorBoxToUrl +'<p><h4>'+ data.info+ '</h4></br><a class="ao_box_head">'+ errorBoxClose+ '</a></p></div>'
-                });
+                });*/
+                if(data.status != 0){
+                    alert(data.info);
+                }
+                else{
+                    window.location.href = '__URL__/View/Id/' + data.data.nid;
+                }
             });
         }
 

@@ -32,6 +32,7 @@
             else{
                 $this->news = $News->order('nid desc')->page($page, 10)->select();
             }
+            $this->aoPage = aoPage($page, $this->pages, __ACTION__. '/P/');
             $this->display();
         }
 
